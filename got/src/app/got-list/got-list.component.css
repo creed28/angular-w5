@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; 
+    margin-top: 1rem;
+  }
+
+  .wrapper {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+  
